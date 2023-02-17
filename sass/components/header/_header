@@ -1,6 +1,6 @@
 .border {
   border-bottom: 1px solid #ececec;
-  background-color: var(--white-background);
+  background-color: $white-background;
 }
 .header {
   display: flex;

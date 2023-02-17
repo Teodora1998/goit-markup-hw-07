@@ -1,6 +1,6 @@
 .header__logo {
   font: "Raleway", sans-serif;
-  color: #000000;
+  color: $black-color;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -8,5 +8,5 @@
   height: 31px;
 }
 .header__highlight {
-  color: var(--brand-color);
+  color: $brand-color;
 }
