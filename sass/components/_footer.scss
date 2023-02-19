@@ -42,7 +42,7 @@
 }
 
 .footer__contact-link {
-  color: $dark-black;
+  color: #ffffff99;
   display: block;
   margin-top: 12px;
 }
@@ -82,7 +82,7 @@
   height: 44px;
   margin: 0;
   color: $white-background;
-  background-color: $background-color;
+  background-color: rgba(255, 255, 255, 0.1);
   &:hover {
     color: $white-background;
     background-color: $brand-color;
@@ -96,12 +96,6 @@
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
-
-.footer-social {
-  .footer-social__list {
-    padding: 0;
-  }
 }
 
 .footer-social__form-container {
@@ -138,7 +132,7 @@
   height: 50px;
   background-color: $brand-color;
   color: $white-background;
-  fill: var(--white-background);
+  fill: $white-background;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;

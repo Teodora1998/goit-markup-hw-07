@@ -31,17 +31,17 @@
   line-height: 1.87;
   padding: 10px 19px 10px 20px;
   &:hover {
-    background-color: #hover-color;
+    background-color: $hover-color;
     cubic-bezier: (0.4, 0, 0.2, 1);
     transition: transform 250ms ease;
   }
   &:active {
-    background-color: #hover-color;
+    background-color: $hover-color;
     cubic-bezier: (0.4, 0, 0.2, 1);
     transition: transform 250ms ease;
   }
   &:focus {
-    background-color: #hover-color;
+    background-color: $hover-color;
     cubic-bezier: (0.4, 0, 0.2, 1);
     transition: transform 250ms ease;
   }
